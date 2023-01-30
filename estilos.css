@@ -45,7 +45,7 @@ body
     position: absolute;
     width: 150px;
     height: 50px;
-    background-image:url("boton.png"); 
+    background-image:url("Boton.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -64,7 +64,7 @@ body
     position: absolute;
     width: 150px;
     height: 50px;
-    background-image:url("boton_oscuro.png"); 
+    background-image:url("Boton_oscuro.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -162,7 +162,7 @@ body
    {
     width: 200px;
     height: 50px;
-    background-image:url("boton.png"); 
+    background-image:url("Boton.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
    -o-background-size: cover;
@@ -178,7 +178,7 @@ body
     {
     width: 200px;
     height: 50px;
-    background-image:url("boton_oscuro.png"); 
+    background-image:url("Boton_oscuro.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
    -o-background-size: cover;
@@ -324,7 +324,7 @@ margin-left: 10%;
     margin-top: 10px;
     width: 100px;
     height: 25px;
-    background-image:url("boton.png"); 
+    background-image:url("Boton.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -343,7 +343,7 @@ margin-left: 10%;
     
     width: 100px;
     height: 25px;
-    background-image:url("boton_oscuro.png"); 
+    background-image:url("Boton_oscuro.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
