@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+body
+   {
+    height: 100%;  
+    background-color: #efe2fa;
+    background:url("/imagenes/Background.png")no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    }
+
+
+#bienvenidos
+    {
+    text-align: center;
+    margin-top: 10%;
+    padding: 5%;
+    font-size: 300%;
+    }   
+ 
+
+#comencemos
+    {
+    text-align: center;
+    margin-top: 10%;
+    padding: 5%;
+    font-size: 300%;
+    }
+
+
+#imgcarga
+    {
+    width: 200px;
+    top: 50%;
+    margin-left: 40px; 
+    }
+
+
+.button
+    {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-image:url("/imagenes/boton.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 150px 50px;
+    background-repeat: no-repeat;
+    border-width: 1px;
+    border-radius: 21px;
+    border-color: #efe2fa;
+    transition-duration: 0.4ms;
+    margin-left: -7px;
+    }
+
+
+.button:hover
+    {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-image:url("/imagenes/boton_oscuro.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 150px 50px;
+    background-repeat: no-repeat;
+    border-width: 1px;
+    border-radius: 21px;
+    border-color: #efe2fa;
+    }
+
+
+#foto_perfil
+    {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%; 
+    border-width: 10px;
+    left: 20px;
+    border-color: #8f9fe4;
+    border-style: solid;
+    margin-left: 25px;
+    margin-top: 15px;
+    }
+
+
+#textos
+   {
+   width: 200px; 
+   max-width: 200px; 
+   margin-left: 30%; 
+   text-align: center;
+    }
+
+
+.Alin
+   {
+    margin-top: 200px;
+    margin-left: 40%;
+    width: 100px; 
+    max-width: 100px; 
+    text-align: center;
+    }
+
+   
+.descripcion
+    {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+   
+    }
+
+
+ /*ejecucion de menu*/
+.dropdown 
+   {
+    float: right;
+    height: 300px;
+    }
+   
+.dropdown-content 
+   {
+   display: none;
+   width: 200px;
+   overflow: auto;
+   border-radius: 25px;
+   box-shadow: 0px 10px 10px 0px rgba(188, 165, 212,0.4);
+   }
+
+.dropdown:hover .dropdown-content 
+   {
+   display: block;
+   }
+
+.dropdown-content a 
+    {
+    display: block;
+    color:#7164b4;
+    padding: 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    }
+
+.dropdown-content a:hover 
+    {
+    color: #FFFFFF;
+    background-color: #8f9fe4;
+    color:#7164b4;
+    padding: 10px;
+    border-radius: 25px;
+    }
+
+#menu
+   {
+    width: 200px;
+    height: 50px;
+    background-image:url("/imagenes/boton.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: 200px 50px;
+    background-repeat: no-repeat;
+    border-width: 1px;
+    border-radius: 21px;
+    border-color: #efe2fa;
+    transition-duration: 0.4ms;
+    }
+  
+#menu:hover
+    {
+    width: 200px;
+    height: 50px;
+    background-image:url("/imagenes/boton_oscuro.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: 200px 50px;
+    background-repeat: no-repeat;
+    border-width: 1px;
+    border-radius: 21px;
+    border-color: #efe2fa; 
+    }
+
+
+    /*Barra navegacion social media*/
+.socmed
+  {
+   width: 100%;
+   height: 150px; 
+   bottom: 0px;
+   position: absolute;
+   left: 0px; 
+   margin-bottom: -30px;
+   }
+
+.socmed button
+  {
+  width: 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  border:  0px;
+  }
+
+.social
+  {
+  width: 50px;
+  height: 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  border:  0px;
+  background-color: #efe2fa;
+  }
+
+#linke
+  {
+  background-image: url("/imagenes/Icons/3184101_in_linked_media_social_iconcopia.png");
+   }
+
+#linke:hover
+   {
+   background-image: url("/imagenes/Icons/3184101_in_linked_media_social_iconcopia2.png");
+   }
+
+#tui
+  {
+  background-image: url("/imagenes/Icons/3184106_media_social_twitter_iconcopia.png");
+   }
+
+#tui:hover
+   {
+   background-image: url("/imagenes/Icons/3184106_media_social_twitter_iconcopia2.png");
+   }
+
+#be
+   {
+   background-image: url("/imagenes/Icons/3184097_behance_media_social_iconcopia.png");
+   }
+
+
+#be:hover
+   {
+   background-image: url("/imagenes/Icons/3184097_behance_media_social_iconcopia2.png");
+   }
+
+#sky
+   {
+   background-image: url("/imagenes/Icons/3184103_media_skype_social_iconcopia.png");
+   }
+
+
+#sky:hover
+   {
+   background-image: url("/imagenes/Icons/3184103_media_skype_social_iconcopia2.png");
+   }
+
+
+.fcontacto
+   {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10%;
+    }
+
+
+#contacto
+{
+margin-left: 10%;
+}   
+
+
+#fname
+{
+   border-radius: 21px;
+   border-width: 3px;
+   border-inline:none;
+   border-color: #8f9fe4;
+   outline: none;
+   padding-left: 10px;
+   margin-left: 10%;
+   }
+
+
+#email
+   { 
+   border-radius: 21px;
+   border-width: 3px;
+   border-inline: none;
+   border-color: #8f9fe4;
+   outline: none; 
+   padding-left: 10px;
+   margin-left: 10%;
+    } 
+
+
+#mensaje
+   {
+   border-radius: 21px;
+   border-width: 3px;
+   border-color: #8f9fe4;
+   border-inline:none; 
+   resize: none;
+   outline: none;
+   padding-left: 10px;
+   margin-left: 10%;
+   }
+
+
+.enviar
+   {
+    margin-top: 10px;
+    width: 100px;
+    height: 25px;
+    background-image:url("/imagenes/boton.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100px 25px;
+    background-repeat: no-repeat;
+    border-width: 1px;
+    border-radius: 21px;
+    border-color: #efe2fa;
+    transition-duration: 0.4ms;
+    }
+
+
+.enviar:hover
+    {
+    margin-top: 10px;
+    
+    width: 100px;
+    height: 25px;
+    background-image:url("/imagenes/boton_oscuro.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100px 25px;
+    background-repeat: no-repeat;
+    border-width: 1px;
+    border-radius: 21px;
+    border-color: #efe2fa;
+    }  
+
+
+.notificacion
+   {
+    margin-top: 200px;
+    margin-left: 35%;
+    width: 350px; 
+    max-width: 350px; 
+    text-align: center;
+    }
+   
+#enviar
+   {
+   margin-left: -15%;
+   }    

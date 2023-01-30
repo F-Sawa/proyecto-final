@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvajes Diseñadores</title>
+
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+
+    <script src="function.js"></script>
+
+</head>
+
+<body>
+
+    <div class="dropdown">
+        <button id="menu"> Información </button>
+        <div class="dropdown-content">
+            <a href="index03.html"> Home </a>
+            <a href="index04.html"> Formación Académica </a>
+            <a href="index05.html"> Experiencia Laboral </a>
+            <a href="index06.html"> Contacto </a>
+        </div></div>
+
+    <h1 id="contacto"> ¡Contactame! </h1>
+
+    <form action="index07.html" method="post"> 
+
+        <label class="fcontacto" for="fname"> First name:</label>
+        <input type="text" id="fname" name="fname" required><br>
+
+        <label class="fcontacto" for="email"> Correo:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label  class="fcontacto" for="mensaje"> Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" cols="30" rows="10" required ></textarea><br>
+
+        <input  id= "enviar" class="enviar" type="submit" value="enviar datos"/>
+        </form>
+        <!--<input type="button" value="enviar datos" onclick="javascript:navegar('index07.html');">-->
+
+</body>
+</html>
