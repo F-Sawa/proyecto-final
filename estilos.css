@@ -45,7 +45,7 @@ body
     position: absolute;
     width: 150px;
     height: 50px;
-    background-image:url("/imagenes/boton.png"); 
+    background-image:url("boton.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -64,7 +64,7 @@ body
     position: absolute;
     width: 150px;
     height: 50px;
-    background-image:url("/imagenes/boton_oscuro.png"); 
+    background-image:url("boton_oscuro.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -162,7 +162,7 @@ body
    {
     width: 200px;
     height: 50px;
-    background-image:url("/imagenes/boton.png"); 
+    background-image:url("boton.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
    -o-background-size: cover;
@@ -178,7 +178,7 @@ body
     {
     width: 200px;
     height: 50px;
-    background-image:url("/imagenes/boton_oscuro.png"); 
+    background-image:url("boton_oscuro.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
    -o-background-size: cover;
@@ -227,44 +227,44 @@ body
 
 #linke
   {
-  background-image: url("/imagenes/Icons/3184101_in_linked_media_social_iconcopia.png");
+  background-image: url("3184101_in_linked_media_social_iconcopia.png");
    }
 
 #linke:hover
    {
-   background-image: url("/imagenes/Icons/3184101_in_linked_media_social_iconcopia2.png");
+   background-image: url("3184101_in_linked_media_social_iconcopia2.png");
    }
 
 #tui
   {
-  background-image: url("/imagenes/Icons/3184106_media_social_twitter_iconcopia.png");
+  background-image: url("3184106_media_social_twitter_iconcopia.png");
    }
 
 #tui:hover
    {
-   background-image: url("/imagenes/Icons/3184106_media_social_twitter_iconcopia2.png");
+   background-image: url("3184106_media_social_twitter_iconcopia2.png");
    }
 
 #be
    {
-   background-image: url("/imagenes/Icons/3184097_behance_media_social_iconcopia.png");
+   background-image: url("3184097_behance_media_social_iconcopia.png");
    }
 
 
 #be:hover
    {
-   background-image: url("/imagenes/Icons/3184097_behance_media_social_iconcopia2.png");
+   background-image: url("3184097_behance_media_social_iconcopia2.png");
    }
 
 #sky
    {
-   background-image: url("/imagenes/Icons/3184103_media_skype_social_iconcopia.png");
+   background-image: url("3184103_media_skype_social_iconcopia.png");
    }
 
 
 #sky:hover
    {
-   background-image: url("/imagenes/Icons/3184103_media_skype_social_iconcopia2.png");
+   background-image: url("3184103_media_skype_social_iconcopia2.png");
    }
 
 
@@ -324,7 +324,7 @@ margin-left: 10%;
     margin-top: 10px;
     width: 100px;
     height: 25px;
-    background-image:url("/imagenes/boton.png"); 
+    background-image:url("boton.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -343,7 +343,7 @@ margin-left: 10%;
     
     width: 100px;
     height: 25px;
-    background-image:url("/imagenes/boton_oscuro.png"); 
+    background-image:url("boton_oscuro.png"); 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
